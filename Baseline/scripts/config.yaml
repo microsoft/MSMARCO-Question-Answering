@@ -1,0 +1,23 @@
+bidaf:
+    dropout: 0.2
+    num_highways: 2
+    num_lstm: 2
+    hidden_size: 100
+    embedding_dim: 300
+    embedding_reduce: 100
+    characters:
+        dim: 16
+        num_filters: 100
+        filter_sizes:
+            - 5
+
+training:
+    lr: 0.001
+    betas:
+        - 0.9
+        - 0.999
+    eps: 0.00000001
+    weigth_decay: 0
+    epochs: 1
+    batch_size: 30
+    limit: 400

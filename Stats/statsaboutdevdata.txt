@@ -1,0 +1,20 @@
+Columns:['answers' 'passages' 'query' 'query_id' 'query_type' 'wellFormedAnswers']
+101093 queries with 102091 judgements with 985 queries contain more than one judgment
+12467 queries with Well Formed Answers of which 7524 contain more than one judgment
+----query distribution by dataset type----
+LOCATION,5828,0.05764988673795416
+DESCRIPTION,54616,0.540255012711068
+NUMERIC,25547,0.25270790262431625
+ENTITY,8677,0.08583185779430821
+PERSON,6425,0.06355534013235338
+----query distribution by wording----
+<function update_query_type at 0x7fa609d598c8>
+yesno,7016,0.06940144223635662
+what,35504,0.3512013690364318
+who,3628,0.03588774692609775
+which,1861,0.01840879190448399
+where,3217,0.03182218353397367
+when,2831,0.028003917185166136
+why,1780,0.01760754948413837
+how,16220,0.1604463217037777
+other,29036,0.28722067798957396
