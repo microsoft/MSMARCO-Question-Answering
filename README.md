@@ -80,7 +80,7 @@ example
 Besides the main files containing judgments, we are releasing various utilites to help people explore the data and optimize the data for their needs. They have only been tested with python 3.5 and are provided as is. Usage is noted below. If you write any utils you feel the community could use and enjoy please submit them with a pull request.
 
 ### File Conversion
-Our community told us that they likled being able to have the data in both json format for easy exploration and [JSONL](http://jsonlines.org/)format to make running models easier. To help the easy transition from one file format to another we have included tojson.py and tojsonl.py.
+Our community told us that they liked being able to have the data in both json format for easy exploration and [JSONL](http://jsonlines.org/) format to make running models easier. To help the easy transition from one file format to another we have included tojson.py and tojsonl.py.
 
 Convert a JSONl(V1 Format) file to JSON(V2 format)
 ~~~
@@ -112,7 +112,7 @@ We have made the official evaluation script along with a sample output file on t
 ./run.sh <path to reference json file> <path to candidate json file> 
 	
 ### Leaderboard Results
-To Help Teams iterate we are making the results of official submissions on our evaluation script(the scores, not the full submissions) available. We will update these files as we update metrics and as new submisions come in. They can be found in the [Leaderboard Results](https://github.com/dfcf93/MSMARCOV2/tree/master/Q%2BA/Leaderboard%20Results) folder.
+To Help Teams iterate we are making the results of official submissions on our evaluation script(the scores, not the full submissions) available. We will update these files as we update metrics and as new submissions come in. They can be found in the [Leaderboard Results](https://github.com/dfcf93/MSMARCOV2/tree/master/Q%2BA/Leaderboard%20Results) folder.
 
 ### Submissions
 Once you have built a model that meets your expectations on evaluation with the dev set, you can submit your test results to get official evaluation on the test set. To ensure the integrity of the official test results, we do not release the correct answers for test set to the public. To submit your model for official evaluation on the test set, follow the below steps:
