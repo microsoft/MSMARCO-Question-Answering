@@ -80,7 +80,7 @@ example
 Besides the main files containing judgments, we are releasing various utilities to help people explore the data and optimize the data for their needs. They have only been tested with python 3.5 and are provided as is. Usage is noted below. If you write any utils you feel the community could use and enjoy please submit them with a pull request.
 
 ### File Conversion
-Our community told us that they likled being able to have the data in both json format for easy exploration and [JSONL](http://jsonlines.org/)format to make running models easier. To help the easy transition from one file format to another we have included tojson.py and tojsonl.py.
+Our community told us that they liked being able to have the data in both json format for easy exploration and [JSONL](http://jsonlines.org/) format to make running models easier. To help the easy transition from one file format to another we have included tojson.py and tojsonl.py.
 
 Convert a JSONl(V1 Format) file to JSON(V2 format)
 ~~~
