@@ -50,7 +50,7 @@ Much like the v2.0 release, the v2.1 release is provided as a json file. This is
 
 Each line/entry contains the following parameters to be described below: query_id, query_type, query, passages, answers, and wellFormedAnswers.
 
-For the QA task the target output is present in 'answers'. For NLGen task the target output is present in 'wellFormedAnswers'. Out of the 1,010,916 queries in the QA dataset 182,669 have a well formed answer. The NLGEN data is a subset of the QA data. In the NLGEN task, only questions that have a well formed answer are evaluated against. Since the evaluation set is held out researchers must assume that all queries can have a wellformed answer and thus produce a wellformed answer for all queries in the eval set. 
+For the QA task the target output is present in 'answers'. For NLGen task the target output is present in 'wellFormedAnswers'. Out of the 1,010,916 queries in the QA dataset 182,669 have a well formed answer. The NLGEN data is a subset of the QA data. In the NLGEN task, only questions that have a well formed answer are evaluated against. Since the evaluation set is held out researchers must assume that all queries can have a well formed answer and thus produce a well formed answer for all queries in the eval set. 
 
 1. query_id: A unique id for each query that is used in evaluation
 2. query: A unique query based on initial Bing usage
