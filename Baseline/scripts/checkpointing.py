@@ -41,7 +41,7 @@ def save_model(model, destination):
     if 'model' not in destination:
         destination.create_group('model')
 
-    for name, value in model.state_dict().items():
+    for name, value in model.cpu().state_dict().items():
         save_params(destination, 'model/'+name, value)
     return
 

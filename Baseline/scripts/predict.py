@@ -180,7 +180,7 @@ def main():
         data.tensor_type = torch.cuda.LongTensor
     qid2candidate = {}
     for qid, toks, start, end in predict(model, data):
-        toks = regex_multi_space.sub(' ', regex_drop_char.sub(' ', ' '.join(id_to_token[tok] for tok in toks).lower())).strip()
+        toks = regex_multi_space.sub(' ', regex_drop_char.sub(' ', ' '.join(id_to_token[int(tok)] for tok in toks).lower())).strip()
         #print(repr(qid), repr(toks), start, end, file=f_o)
         output = '{\"query_id\": '+ qid + ',\"answers\":[ \"' + toks + '\"]}'
         if qid not in qid2candidate:
