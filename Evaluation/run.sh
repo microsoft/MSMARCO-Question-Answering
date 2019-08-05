@@ -53,5 +53,5 @@ if [ ! $# -eq 2 ]
 then
     echo "Invalid arguments supplied."
 else
-    PYTHONPATH=./bleu python3.5 ms_marco_eval.py $1 $2
+    PYTHONPATH=./bleu python3 ms_marco_eval.py $1 $2
 fi
