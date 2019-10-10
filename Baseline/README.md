@@ -10,7 +10,7 @@ nltk
 1. Install all dependencies and setup CUDA.
 2. Ensure the mrcqa folder is in your python Path
 ~~~
-export PYTHONPATH=${PYTHONPATH}:~/<Where you saved this git repo>/MSMARCOV2/Q+A/BidafBaseline/mrcqa
+export PYTHONPATH=${PYTHONPATH}:~/<Where you saved this git repo>/MSMARCO-Question-Answering/Baseline/mrcqa
 ~~~
 2. Create an experiment folder and copy the config.yaml file from scripts. Currently, this will only train for 1 epoch and stop. This is useful for testing and debugging scripts. 
 4. Get MSMARCO v2.1 data and pre-trained word embedings and save in your data folder. We recommend Glove's glove.840B.300d.txt
